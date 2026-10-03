@@ -12,9 +12,9 @@
 - 内容许可：CC BY-NC 4.0，第三方材料说明见 ATTRIBUTIONS.md。
 - 本站改动：阅读界面、导航和网页排版；不改写原著正文，不代表原作者背书。
 - 使用与 PDF 构建记录 SHA-256 一致的 EPUB 源内容转换；校验信息见 source-manifest.json。
-- 阅读交互参考：https://cdyforever.github.io/how-to-live-better/ 。本站未复制参考站的文章或程序。
 
 ## GitHub Pages
+正文链接https://louistnt666.github.io/life-level-up-guide/
 
 这是无需构建的静态网站。将本目录文件提交到仓库根目录，在 Settings → Pages 选择 Deploy from a branch，然后选择 main / (root) 保存。
 
