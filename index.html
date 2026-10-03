@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="《人生进阶指南》完整在线阅读：英语、AI、真实项目、生活实践与长期改变。62 个章节，支持全文搜索、章节导航与原版 PDF 下载。">
+  <meta name="theme-color" content="#f8f7f3">
+  <title>人生进阶指南 · 在线阅读</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('life-guide-theme')||'light'}catch(e){}</script>
+  <script src="book.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#reading">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="#chapter-001"><span class="brand-icon" aria-hidden="true">↗</span><span>人生进阶指南<small>AI 时代终身学习指南</small></span></a>
+    <div class="header-meta">韩先凯 著 <span>·</span> 全书 62 章</div>
+    <div class="header-actions"><a class="pdf-link" href="downloads/life-level-up-guide-zh.pdf" target="_blank" rel="noopener">原版 PDF <span aria-hidden="true">↗</span></a><button id="theme" class="icon-button" aria-label="切换到深色模式">◐ <span>深色</span></button><button id="menu" class="mobile-menu" aria-label="打开章节目录" aria-expanded="false" aria-controls="sidebar">目录</button></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar" aria-label="章节目录">
+      <div class="side-top"><div class="eyebrow">THE READING ROOM</div><h2>从这里，继续进阶。</h2><p>五大部分 · 62 章 · 339 页原文</p></div>
+      <label class="search-box"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索全书内容…" aria-label="搜索全书内容" autocomplete="off"><kbd>/</kbd></label>
+      <div class="filters" aria-label="章节类型"><button data-filter="all" class="active" aria-pressed="true">全部章节</button><button data-filter="tools" aria-pressed="false">实践工具</button></div>
+      <label class="sr-only" for="group">筛选部分</label><select id="group"><option value="all">全书目录</option></select>
+      <div class="nav-meta"><span id="nav-count">62 个章节</span><button id="reset" hidden>重置筛选</button></div>
+      <nav id="chapters"></nav>
+      <div class="side-footer"><span class="edition-dot"></span> 2026.09.07 版 <a href="https://byoungd.github.io/up/" target="_blank" rel="noopener">原作 ↗</a></div>
+    </aside>
+    <button id="backdrop" aria-label="关闭章节目录" hidden></button>
+    <main id="reading" tabindex="-1">
+      <div class="reading-top"><span id="breadcrumb">开卷</span><span id="chapter-count">01 / 62</span></div>
+      <div id="reader-view">
+        <div class="chapter-label" id="chapter-label">开卷 / CHAPTER 01</div>
+        <h1 id="chapter-title">阅读指南：把书放回生活</h1>
+        <div class="chapter-meta"><span>韩先凯</span><span id="reading-time"></span><span>完整原文</span></div>
+        <div class="intro-rule"></div>
+        <article id="article" class="prose"><p>正在打开《人生进阶指南》…</p><noscript><p>在线阅读需要启用 JavaScript，也可以<a href="downloads/life-level-up-guide-zh.pdf">下载完整 PDF</a>。</p></noscript></article>
+        <div class="chapter-pagination"><a id="previous" href="#chapter-001"></a><a id="next" href="#chapter-002"></a></div>
+      </div>
+      <section id="results-view" hidden aria-label="搜索结果"><div class="chapter-label">在全书中寻找</div><h1 id="results-title">搜索结果</h1><p id="results-summary" role="status"></p><div id="results"></div></section>
+      <footer class="content-footer">原著：<a href="https://byoungd.github.io/up/" target="_blank" rel="noopener">韩先凯《人生进阶指南》</a> · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a><br>本网站将原书重排为在线阅读界面，保留正文与出处。<a href="ATTRIBUTIONS.md">第三方材料说明</a></footer>
+    </main>
+    <aside class="page-toc" aria-label="本章目录"><div class="eyebrow">本章内容</div><nav id="toc"></nav><a class="back-top" href="#reading">↑ 回到顶部</a><div class="progress-label">本章阅读进度 <span id="progress-label">0%</span></div><div class="progress-track"><div id="progress"></div></div></aside>
+  </div>
+  <div id="announce" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>
